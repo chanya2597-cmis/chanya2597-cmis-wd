@@ -1,0 +1,14 @@
+1. Walk into the classroom 
+2. Log into the computer 
+3. Open terminal, and github.com
+4. Clone your respository
+5. To create a gedit file type in "gedit (file name) in the terminal 
+6. Type down what you need in the file 
+7. Click save and close the file
+8. Go back to the terminal then type in git add (file name)
+9. Then type in git commit -m "commit message" 
+10. Git push meaking the file save on github.com 
+11. Exit all the tabs 
+12. Shut down the computer
+13. Exit the classroom with your bag
+
