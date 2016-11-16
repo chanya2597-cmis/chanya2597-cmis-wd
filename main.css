@@ -1,2 +1,21 @@
 h1{
+	border-style: solid;
+		
 	color:violet;
+	font-size:30px;
+	background-color:#40E0D0;
+	text-shadow: 2px 2px #778899;
+	font-family:"Comic Sans MS", cursive, sans-serif
+
+}
+h2{
+	color:#FFB6C1; 
+	font-size:30px;
+	background-color:#87CEFA;
+	text-shadow: 2px 2px #F08080;
+	font-family:"Comic Sans MS", cursive, sans-serif
+
+}
+p{
+	font-family:"Comic Sans MS", cursive, sans-serif
+}
