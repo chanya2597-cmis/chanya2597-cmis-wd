@@ -1,10 +1,9 @@
 h1{
 	border-style: solid;
-	box-shadow: 10px 10px 5px #00CED1;	
+	box-shadow: 7px 7px 4px #00CED1;	
 	color:violet;
-	font-size:30px;
+	font-size:50px;
 	background-color:#40E0D0;
-	text-shadow: 2px 2px #778899;
 	font-family:"Comic Sans MS", cursive, sans-serif;
 	border: 2px solid;
 	padding: 6px;
@@ -19,13 +18,14 @@ h1{
 	padding: 6px;
 	border-top-right-radius: 1em;
 	text-align: center;
+	font-weight: italic;
+	
 	
 }
 h2{
 	color:#FFB6C1; 
 	font-size:30px;
 	background-color:#87CEFA;
-	text-shadow: 2px 2px #F08080;
 	font-family:"Comic Sans MS", cursive, sans-serif;
 	border: 2px solid;
 	padding: 6px;
@@ -40,14 +40,19 @@ h2{
 	padding: 6px;
 	border-top-right-radius: 1em;
 	text-align: center;
+	box-shadow: 7px 7px 4px #6495ED;
+
 }
 body{
-	font-family:"Comic Sans MS", cursive, sans-serif
+	font-family:"Comic Sans MS", cursive, sans-serif;
 	color:#FFB6C1; 
-	text-shadow: 2px 2px #F08080;
+	text-shadow: 2px 2px #666666;
 	background-image: url("https://secure.static.tumblr.com/2a0d60948e8e046fb0a9f55c22906fc4/uucpfip/Qrynufa5g/tumblr_static_tumblr_static_filename_640.gif");
-	background-color: #87CEFA;
+	backround-position: center;
 	text-align: center;
-	
+	border-style: solid;	
+	box-shadow: 10px 10px 5px #9932CC;	
 }
+
+
 
