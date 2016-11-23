@@ -1,17 +1,17 @@
 h1{
-	border-style: groove;
+	border-style: solid;
+	border-color: #ff5050 #ffcce0;
+	border-width: 15px;
 	box-shadow: 7px 7px 4px #00CED1;	
 	color:violet;
 	font-size:50px;
 	background-color:#40E0D0;
 	font-family:"Comic Sans MS", cursive, sans-serif;
-	border: 2px solid;
 	padding: 6px;
 	text-align: center;
 	font-weight: italic;
-	border-left: thick double violet;
-	border-right: thick double violet;
-	background: linear-gradient(#00aaff, #4d4dff, );
+	background: linear-gradient(#00aaff, #4d4dff);
+	
 }
 h2{
 	color:#FFB6C1; 
@@ -35,7 +35,6 @@ body{
 	color:#FFB6C1; 
 	text-shadow: 2px 2px #666666;
 	background-image: url("https://secure.static.tumblr.com/2a0d60948e8e046fb0a9f55c22906fc4/uucpfip/Qrynufa5g/tumblr_static_tumblr_static_filename_640.gif");
-	backround-position: center;
 	text-align: center;
 	background-attachment: fixed;
 	background-position: center;
