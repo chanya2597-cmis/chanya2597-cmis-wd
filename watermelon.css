@@ -1,0 +1,36 @@
+h1{
+	color:red;
+	font-size:50px;
+	background-color:#adebeb;
+	font-family: "Times New Roman", Times, seif;
+	font-weight: italic;
+	text-decoration: underline;
+;
+
+	
+}
+p{
+	color:blue; 
+	padding: 6px;
+	font-size: 10px;
+		
+}
+h3{
+	background-color:blue;
+	color: white;
+}
+h4{
+	background-color:blue;
+	color: white;
+}
+body{
+
+}
+html{
+	background-color: #ffcccc;
+	border-left: red dotted 35px;
+}
+
+
+
+
