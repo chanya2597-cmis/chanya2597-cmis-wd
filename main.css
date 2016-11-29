@@ -1,3 +1,26 @@
+/* 1.border-style
+2.border-color
+3.border-width
+4.color
+5.font-size
+6.background-color
+7.font-family
+8.padding
+9.text-align
+10.font-weight
+11.background
+12.word-spacing
+13.outline-width
+14.outline-style
+15.letter-spacing
+16.text-indent
+17.margin
+18.text-overflow
+19.background-position
+20.background-image
+ */
+
+
 h1{
 	border-style: solid;
 	border-color: #ff5050 #ffcce0;
@@ -11,6 +34,12 @@ h1{
 	text-align: center;
 	font-weight: italic;
 	background: linear-gradient(#00aaff, #4d4dff);
+	word-spacing: 2px;
+	outline-width: 3px;
+	outline-style: dotted;
+	letter-spacing: 2px; 
+	text-indent: 10px;
+	margin: 40px;
 	
 }
 h2{
@@ -33,7 +62,6 @@ h2{
 body{
 	font-family:"Comic Sans MS", cursive, sans-serif;
 	color:#FFB6C1; 
-	text-shadow: 2px 2px #666666;
 	background-image: url("https://secure.static.tumblr.com/2a0d60948e8e046fb0a9f55c22906fc4/uucpfip/Qrynufa5g/tumblr_static_tumblr_static_filename_640.gif");
 	text-align: center;
 	background-attachment: fixed;
