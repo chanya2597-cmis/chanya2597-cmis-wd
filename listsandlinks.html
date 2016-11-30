@@ -4,6 +4,8 @@
 <title>
 	List and Links
 </title>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="listsandlinks.css" type="text/css">
 <h1>
 	List and Links
 </h1>
@@ -14,24 +16,41 @@
 <h2>Procedure to Create and View a Website on the Production server</h2>
 
 <ol type="1">
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-
+	<li>Open terminal tab and enter the cloning command: git clone --config="http.proxy=http://your-network-username:your-network-password@192.168.2.1:8080" https://github.com/your-github-username/your-github-repository-name.git</li>
+	<li>After that type in the command "cd" and put in your directory name: "cd email7777-cmis-wd"</li>
+	<li>To create a new file of open up an already made file type in "gedit (insert file name).html" : "gedit watermelon.html"</li>
+	<li>This is will open a new window called gedit which'll allow you to edit your html file. Now you can put whatever things you need in it but you need to have certain tags. Tags operate similarly to a 'family' system. The 'parents' will be in the first column, the 'children' on the second column (basically means tabbing once), the grand children on the third column (tab two times), and so on. </li>
+	<li>On the first line put <> and put inbetween them "!doctype html". This is a parent so no tabbing needed.</li>
+	<li>On the second line put <> and put 'html' inbetween them. This is also a parent.</li>
+	<li>On the third line, press tab and then put an opening tag for the head. Which is putting 'head' inbetween the <>. This is a 'child' so it'll be in the second column.</li>
+	<li>On the fourth line, press tab two times and put another opening tag for title. Do it the same way like for 'head' but replace it with title. This is the children of the children so it has to be in another, third, column. The reason why it's a child of header is because it will be seen in the header.</li>
+	<li>On the fifth line, tab three times and put what ever you want the title to be. This is the great-grand children.</li>
+	<li>On the sixth line, tab two times and put the closing tag which is just repeating the opening tab but with a slash after the '<'.</li>
+	<li>On the seventh line, tab two times and put "meta charset=utf-8/" in between the <>.</li>
+	<li>On the eighth line, tab once and put "link rel="stylesheet" type="text/css" href="selectors.css"/" inbetween the <>. This will give a link to your css file so that you can edit and alter the appearance of your website page.</li>
+	<li>For the next line, tab once and put the closing tag for head, same as the opening tag but with a '/' after the '<'.</li>
+	<li>On the tenth line, after tabbing once, you'll put a similar tag to head but replace head with body.</li>
+	<li>Next line, tab twice, and put opening tag for header one. So put 'h1' inbetween <>.</li>
+	<li>Next line, tab three times and put whatever you want as your header, most probably the title again since the other one won't show up directly on your page.
+Then put the closing tab on the next line, make sure it's in the same 'column' as the opening tag. Same like all other closing tags, just add the / after the <..</li>
+	<li>If you want another paragraph under your title, such as your name or some kind of 'Welcome', under the closing header one tag put the same tag for header one but instead of 1 put 2, 'h2' inbetween <>. This is similar to header 1 but it's a sub heading for header 1- meaning it'll be smaller font.</li>
+	<li>When you're done, put in the closing tag (basically the same thing but with a / after the <.</li>
+	<li>If you want a paragraph then under header 2, put in 'p' inbetween <>. Type whatever you want in the next line and close it with the closing tag. Don't forget to enter it on another line as well.</li>
+	<li>If you want another paragraph then repeat the previous step. But if you're done then on the other line, tab once and put the closing tag for 'body'.</li>
+	<li>And on the last line, no tabbing, put the closing tag for html.</li>
+	<li>With that basic formatting, you can always add more headers (h3, h4, h5, h6). Or add more paragraphs or even a footer (footer inbetween <>). If you want to alter the appearance of your webpage then create a css file (filename.css). For example, watermelon.css.</li>
+	<li>There you basically copy whatever tag you want to edit from the html file. But instead of using the paragraph html tag, you put p {. One the next lines you can then enter whatever kind of properties you want. So for the body tag, put body {. Or h1 {, or footer { etc. These are called selectors.
+</li>
+	<li>There are several kind of properties you can use. There're some for fonts, backgrounds, colors, size, cursor, margins, borders, etc. You can look for properties on website. But the way you use them is type it in, put a ':' and then what kind of the property you want to use. Finish it with a ';'. For example, font-family: arial;</li>
+	<li>Save changes and add them to github. Git add (insert file name), git commit -m "(filename)", and git push. Do this for both files. And if you want to see it online, insert the python code (python -m SimpleHTTPServer) and search up 'localhost:8000/(insert filename)'.</li>
 </ol>  
 
 <h2>Helpful Websites</h2>
 
 <ul>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
+	<li><a href="http://www.w3schools.com/default.asp"> W3schools</a></li>
+	<li><a href="http://www.htmlgoodies.com/tutorials/getting_started/article.php/3863271"> htmlgoodies</a></li>
+	<li><a href="https://www.siteinspire.com/"> Site Inspire</a></li>
 </ul>   
 
 </body>
