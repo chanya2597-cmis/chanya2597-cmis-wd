@@ -1,0 +1,27 @@
+article{
+	text-align: center;
+	color: black;
+	background: white;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin: 150px;
+	
+	
+}
+html{
+	background-image: url("http://www.themesltd.com/headers2/bright_drawn_diamonds.png");
+	text-align: center;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: repeat;	
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	border-width: 15px;
+
+	
+}
+h1,h2{
+	font-size: 50px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
