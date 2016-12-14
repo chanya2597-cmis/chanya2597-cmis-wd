@@ -2,26 +2,45 @@ article{
 	text-align: center;
 	color: black;
 	background: white;
-	margin-right: 200px;
-	margin-left: 200px;
-	margin: 150px;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin: 130px;
+	padding: 8px;
+	border: solid 2px;
+
+	
 	
 	
 }
 html{
-	background-image: url("http://www.themesltd.com/headers2/bright_drawn_diamonds.png");
-	text-align: center;
+	background-image: url("https://s-media-cache-ak0.pinimg.com/564x/b1/93/c6/b193c6d69c826ae5966dfa974cc9cb11.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: repeat;	
 	font-family:"Comic Sans MS", cursive, sans-serif;
 	border-width: 15px;
+	text-align: center;
+	
 
 	
 }
-h1,h2{
-	font-size: 50px;
+h2{
+	font-size:30px;
 	margin-left: 300px;
 	margin-right: 300px;
+
+	
+
 }
+p{
+	border-color: blue;
+	border: solid 2px;
+
+
+}
+h1{
+	border-color: blue;
+	border: outset 5px;
+}
+
 
